@@ -32,11 +32,6 @@ EcoSync-MCF Integration is a full-stack solution for seamless inventory and orde
 
 ---
 
-## 📚 Documentation
-For detailed documentation, please refer to the docs.
-
----
-
 
 ---
 
