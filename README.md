@@ -1,53 +1,78 @@
-# ecosync-mcf-integration
-A full-stack solution for seamless inventory and order management. Integrates Shopify with Amazon Multi-Channel Fulfillment (MCF) to automate inventory syncing, order processing, and returns handling.
-EcoSync MCF Integration
-Overview
-EcoSync MCF Integration is a full-stack solution designed to streamline inventory and order management by seamlessly integrating Shopify with Amazon Multi-Channel Fulfillment (MCF).
-Features
+# EcoSync-MCF Integration
 
-Automated inventory synchronization
-Real-time order processing
-Seamless returns handling
-Shopify and Amazon MCF integration
+EcoSync-MCF Integration is a full-stack solution for seamless inventory and order management. It integrates Shopify with Amazon Multi-Channel Fulfillment (MCF) to automate inventory syncing, order creation, and return handling.
 
-Prerequisites
+---
 
-Node.js 18+
-Shopify Account
-Amazon Seller Central Account
+## 🚀 Features
+- Synchronize inventory between Shopify and Amazon MCF.
+- Create and track orders with Amazon MCF.
+- Manage returns efficiently.
+- Notify customers via email or push notifications.
+- Scalable architecture with Dockerized deployment.
 
-Installation
+---
 
-Clone the repository
+## 🛠 Tech Stack
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- Amazon MCF API
+- Shopify API
 
-bashCopygit clone https://github.com/devvivek172/ecosync-mcf-integration.git
+### Frontend
+- React.js
+- TailwindCSS
 
-Install dependencies
+### DevOps
+- Docker & Docker Compose
+- Nginx
+- AWS
 
-bashCopynpm install
+---
 
-Configure environment variables
+## 📚 Documentation
+For detailed documentation, please refer to the docs.
+
+---
 
 
-Create .env file
-Add Shopify and Amazon credentials
+---
 
-Usage
-bashCopynpm start
-Tech Stack
+## 🚀 Getting Started
 
-Frontend: React
-Backend: Node.js
-Database: MongoDB
-Authentication: OAuth
+### Prerequisites
+- Node.js
+- Docker
+- MongoDB
 
-Contributing
+### Installation
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/ecosync-mcf-integration.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd ecosync-mcf-integration
+    ```
+3. Install dependencies:
+    ```sh
+    npm install
+    ```
 
-Fork the repository
-Create feature branch
-Commit changes
-Push to branch
-Create pull request
+### Running the Application
+1. Start the backend and frontend services using Docker Compose:
+    ```sh
+    docker-compose up --build
+    ```
+2. The backend will be available at `http://localhost:5000` and the frontend at `http://localhost:3000`.
 
-Contact
-Vivek - 2101641530172@psit.ac.in
+---
+
+## 🧪 Running Tests
+To run the tests, use the following command:
+```sh
+npm test
+
+
